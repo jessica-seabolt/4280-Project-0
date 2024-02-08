@@ -1,0 +1,26 @@
+### Jessica Seabolt 4280 Project 0
+
+## Overview
+
+This project involves creating a modified binary search tree program. The program supports 3 different tree traversals (preorder, inorder, and postorder) and outputs the traversal results to files.
+
+## Usage
+
+Compilation: Use provided makefile to compile.
+Execution: P0 [file] where file is optional.
+No file: Reads from keyboard.
+With file: Reads from the specified file.
+Output: Generates file.preorder, file.inorder, file.postorder (or output.preorder, output.inorder, output.postorder if no file specified).
+
+## Files
+
+node.h: Defines the node structure.
+tree.c: Contains tree-building and traversal functions.
+main.c: Main program file handling IO and calling tree functions.
+
+## Build and Run
+
+Follow these steps to compile and run the program:
+
+Compile: make
+Run: ./P0 [optional file path]
